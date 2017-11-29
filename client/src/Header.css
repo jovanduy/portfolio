@@ -1,0 +1,68 @@
+@media screen and (max-width: 360px) {
+    .header {
+        font-size: 18px;
+    }
+    
+    .fa-envelope {
+        font-size: 20px;
+    }
+
+    .resume {
+        font-size: 8px;
+        margin-top: 2.5px;
+        padding: 2.5px;
+    }
+}
+
+@media screen and (min-width: 361px) {
+    .header {
+        font-size: 23px;
+    }
+
+    .fa-envelope {
+        font-size: 25px;
+    }
+
+    .resume {
+        font-size: 11px;
+        margin-top: 4px;
+        padding: 3px;
+    }
+}
+
+.header {
+    padding: 15px;
+    height: 50px;
+}
+
+.header .links {
+    display: inline-block;
+    float: right;
+}
+
+.fa {
+    margin-right: 7px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.resume {
+    float: top;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    transition: .4s;
+}
+
+@media (pointer: fine) {
+    a.fa:hover {
+        color: var(--highlight-blue);
+    }
+
+    a.resume:hover {
+        background-color: var(--highlight-blue);
+    }
+}
+

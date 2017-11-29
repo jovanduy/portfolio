@@ -1,0 +1,52 @@
+.about {
+    margin: 0 10%;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+@media screen and (max-width: 875px) {
+    .about .text {
+        display: block;
+        width: 100%;
+    }
+
+    .about .img {
+        display: block;
+        width: 100%;
+    }
+
+    .about img {
+        width: 80%;
+        margin: 10px 10%;
+        min-width: 200px;
+    }
+
+    .about p {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 876px) {
+    .about .img {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .about .text {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .about img {
+        width: 70%;
+        margin: 10px 15%;
+        min-width: 200px;
+    }
+
+    .about p {
+        margin-bottom: 50%;
+    }   
+}

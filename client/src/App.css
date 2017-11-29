@@ -1,0 +1,30 @@
+:root {
+    --text-gray: #E0E0E0;
+    --light-blue: #9BC7F8;
+    --highlight-blue: #60ceff;/*#3CC3FD;*/
+    --body-black: #2C2C2C;
+    --hover-gray: #E5E5E5;
+}
+
+h1 {
+    color: var(--light-blue);
+}
+
+body {
+    overflow-y: scroll;
+}
+
+div {
+    color: var(--body-black);
+    overflow: hidden;
+}
+
+a:link, a:visited {
+    color: var(--body-black);
+    text-decoration: none;
+}
+
+.App {
+    font-family: 'Lato', sans-serif;
+}
+
