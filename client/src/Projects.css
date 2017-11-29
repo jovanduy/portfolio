@@ -70,9 +70,9 @@ a:link, a:visited {
 /* small screen */
 @media screen and (max-width: 600px) {
     .project {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
 
     .project img {
